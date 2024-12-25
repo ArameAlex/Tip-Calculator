@@ -4,16 +4,38 @@ body{
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-color: #222;
+    font-family: Arial, sans-serif;
 }
+
+/* Light mode styles */
+body.light-mode {
+    background-color: #ddd;
+    color: #222;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
 .main_box{
-    background-color: #666;
     width: 40%;
     padding: 5px 20px 20px;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+div.dark-mode{
+    background-color: #2A3335;
+    color: #F4EDD3;
+}
+div.light-mode{
+    background-color: #F4EDD3;
+    color: #2A3335;
+}
+
 h1{
     text-align: center;
     font-family: 'Gill Sans MT','Trebuchet MS', sans-serif;
